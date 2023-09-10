@@ -1,0 +1,65 @@
+body{
+    background-color: #141414;
+}
+
+.fondo{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    flex-direction: column;
+    padding-top: 10%;
+}
+h1{
+    
+    color:#FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.67em 0;
+    font-size: 3.5vw;
+    font-weight: unset;
+    width: 100%;
+}
+table{
+    padding-left: 20vmax;
+}
+table:hover{
+    margin: white;
+}
+.img_perfiles img{
+    border: 0.3em solid transparent;
+    border-radius: 4px;
+    height: 10vmax;
+    width: 10vmax;
+    padding-left: 1.5vmax;
+    cursor: pointer;
+}
+
+#img_mauricio img{
+    border-radius: 10px;
+    height: 10vmax;
+    width: 10vmax;
+}
+.palabras_perfil td{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6C6C6C;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400px;
+    padding-top: 1vmax;
+    cursor: pointer;
+}
+.manage{
+    padding-left: 42%;
+}
+.manage button{
+    font-family:Arial, Helvetica, sans-serif ;
+    background: transparent;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+    margin: 2em 0 1em;
+    padding: 0.5em 1.5em;
+}
